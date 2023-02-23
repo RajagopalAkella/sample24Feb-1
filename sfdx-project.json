@@ -1,12 +1,20 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
-      "default": true
+      "path": "myProj",
+      "package": "mypkg",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "default": true,
+      "versionDescription": "My Package"
     }
   ],
   "name": "sampUnlock",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "mypkg": "0Ho7F000000TNPmSAO",
+    "mypkg@1.0.0-1": "04t7F000005dEekQAE"
+  }
 }
